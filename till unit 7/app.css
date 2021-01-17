@@ -56,6 +56,10 @@ a[href*="google"]{
     color: #1d3557;
 }
 
+a:hover
+{
+    color:orange;
+}
 
 .post a:hover {
     text-decoration: underline;
