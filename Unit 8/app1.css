@@ -1,0 +1,15 @@
+section{
+    background-color: blue;
+    width: 800px;
+    height: 800px;
+
+}
+
+div {
+    background-color: cadetblue;
+    width:50%;
+    height: 50%;
+}
+h2 {
+    font-size: 2em;
+}

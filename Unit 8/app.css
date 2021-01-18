@@ -1,0 +1,28 @@
+div {
+  width: 400px;
+  height: 200px;
+}
+#one {
+  background-color: darkgreen;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+#two {
+  background-color: peachpuff;
+  border-width: 5px;
+  border-color: black;
+  border-style: dashed;
+  box-sizing: border-box;
+  margin: 200px;
+}
+#three {
+  background-color: rebeccapurple;
+  border: 4px solid black;
+  border-left-color: burlywood;
+}
+button{
+  padding: 0 20px;
+}
