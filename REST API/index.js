@@ -29,12 +29,12 @@ const comments =[
 app.get('/comments',(req,res)=>{
     res.render('comments/index',{comments})
 })
-app.get('/tacos',(req,res)=>{
-    res.send("GET /tacos response")
-})
-
-app.post('/tacos',(req,res)=>{
+app.post('/comments',(req,res)=>{
     console.log(req.body)
+    res.send("IT Worked");
+})
+app.get('/comments/new',(req,res)=>{
+    res.render('comments/new')
 })
 app.listen(3000,()=>{
     console.log("ON PORT  3000")
